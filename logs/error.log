@@ -1,0 +1,14 @@
+2024/09/28 04:55:21 [emerg] 1#1: no "events" section in configuration
+2024/09/28 04:55:37 [emerg] 1#1: no "events" section in configuration
+2024/09/28 04:58:05 [emerg] 1#1: "upstream" directive is not allowed here in /etc/nginx/nginx.conf:1
+2024/09/28 04:59:05 [emerg] 1#1: "upstream" directive is not allowed here in /etc/nginx/nginx.conf:2
+2024/09/28 04:59:37 [emerg] 1#1: "upstream" directive is not allowed here in /etc/nginx/nginx.conf:2
+2024/09/28 05:00:39 [error] 23#23: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/09/28 05:00:41 [error] 23#23: *1 open() "/usr/share/nginx/html/service-worker.js" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /service-worker.js HTTP/1.1", host: "localhost", referrer: "http://localhost/service-worker.js"
+2024/09/28 05:04:36 [error] 23#23: *2 open() "/usr/share/nginx/html/service-worker.js" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /service-worker.js HTTP/1.1", host: "localhost", referrer: "http://localhost/service-worker.js"
+2024/09/28 05:04:38 [error] 23#23: *2 open() "/usr/share/nginx/html/service-worker.js" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /service-worker.js HTTP/1.1", host: "localhost", referrer: "http://localhost/service-worker.js"
+2024/09/28 05:05:06 [error] 22#22: *1 open() "/usr/share/nginx/html/service-worker.js" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /service-worker.js HTTP/1.1", host: "localhost", referrer: "http://localhost/service-worker.js"
+2024/09/28 05:05:07 [error] 22#22: *1 open() "/usr/share/nginx/html/service-worker.js" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /service-worker.js HTTP/1.1", host: "localhost", referrer: "http://localhost/service-worker.js"
+2024/09/28 05:05:56 [error] 22#22: *1 open() "/usr/share/nginx/html/service-worker.js" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /service-worker.js HTTP/1.1", host: "localhost", referrer: "http://localhost/service-worker.js"
+2024/09/28 11:51:23 [error] 22#22: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/09/28 11:51:24 [error] 22#22: *2 open() "/usr/share/nginx/html/service-worker.js" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /service-worker.js HTTP/1.1", host: "localhost", referrer: "http://localhost/service-worker.js"
